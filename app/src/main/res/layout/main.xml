@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:layout_weight="1.0">
+
+		<EditText
+			android:inputType="textMultiLine"
+			android:layout_width="match_parent"
+			android:ems="10"
+			android:layout_height="match_parent"
+			android:id="@+id/mainEditText1out"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:layout_weight="1.0"
+		android:orientation="vertical">
+
+		<LinearLayout
+			android:layout_height="100dp"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:layout_weight="1.0">
+
+			<EditText
+				android:inputType="textMultiLine"
+				android:layout_width="match_parent"
+				android:ems="10"
+				android:layout_height="match_parent"
+				android:id="@+id/mainEditTextqq"
+				android:text="1959903082"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="100dp"
+			android:layout_width="match_parent"
+			android:layout_weight="1.0">
+
+			<EditText
+				android:inputType="textMultiLine"
+				android:layout_width="match_parent"
+				android:ems="10"
+				android:layout_height="wrap_content"
+				android:id="@+id/mainEditTextin"
+				/>
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="100dp"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:layout_weight="1.0">
+
+			<EditText
+				android:inputType="textMultiLine"
+				android:layout_width="wrap_content"
+				android:ems="10"
+				android:layout_height="wrap_content"
+				android:layout_weight="1.0"
+				android:id="@+id/mainEditTextkey"
+				android:text="27 39 42 43 34 6D 5A 4D 5B 6A 62 51 25 25 60 5B"/>
+
+			<Button
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="解密"
+				android:layout_weight="1.0"
+				android:id="@+id/mainButton1"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</LinearLayout>
+
